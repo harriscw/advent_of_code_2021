@@ -1,5 +1,5 @@
 #Read data 
-text_file = open("input.txt", "r")
+text_file = open("../input.txt", "r")
 lines = [int(v.strip("\n")) for v in text_file.readlines()]
 
 acc=0
