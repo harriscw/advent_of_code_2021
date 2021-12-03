@@ -1,5 +1,5 @@
 #Read data 
-text_file = open("input.txt", "r")
+text_file = open("../input.txt", "r")
 lines = [v.strip("\n").split() for v in text_file.readlines()]
 
 def p1():
