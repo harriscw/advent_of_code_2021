@@ -66,9 +66,3 @@ for i,thenum in enumerate(instrux): #iterate over instructions
         del mydict[id]
     if len(mydict)==0:
         break
-
-        
-
-            
-    
-            
